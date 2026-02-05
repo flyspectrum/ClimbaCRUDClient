@@ -20,6 +20,7 @@ function App() {
           <Route index element={<Toolbar />} />
           <Route>
             <Route path="lista" element={<Lista />} />
+            <Route path="cadastro" element={<Cadastro></Cadastro>} />
             <Route path="cadastro/:clienteId" element={<Cadastro></Cadastro>} />
           </Route>
 
