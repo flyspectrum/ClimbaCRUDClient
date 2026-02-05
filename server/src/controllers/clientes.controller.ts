@@ -26,7 +26,7 @@ export async function criarCliente(req: Request, res: Response) {
     );
 
     return res.status(201).json({
-      mensagem: 'Usuário cadastrado com sucesso'
+      mensagem: 'Cliente cadastrado com sucesso'
     });
 
   } catch (error) {
