@@ -1,7 +1,7 @@
 import { Request, Response } from 'express';
 import { connection } from '../database/connection';
 
-export async function criarUsuario(req: Request, res: Response) {
+export async function criarCliente(req: Request, res: Response) {
   try {
     const {
       nome,
